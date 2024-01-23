@@ -1,0 +1,8004 @@
+/*Fonts*/
+
+
+/*color: #000;
+
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;*/
+
+/*color: #FFF;
+
+font-family: "Neue Machina";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;*/
+
+/*============================================*/
+@font-face {
+    font-family: 'Neue Machina';
+    src: local('Neue Machina Bold'), local('Neue-Machina-Bold'),
+        url('/fonts/NeueMachina-Bold/NeueMachina-Bold.woff2') format('woff2'),
+        url('/fonts/NeueMachina-Bold/NeueMachina-Bold.woff') format('woff'),
+        url('/fonts/NeueMachina-Bold/NeueMachina-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Neue Machina';
+    src: local('Neue Machina Ultra bold'), local('Neue-Machina-Ultra-bold'),
+        url('/fonts/NeueMachina-Ultrabold/NeueMachina-Ultrabold.woff2') format('woff2'),
+        url('/fonts/NeueMachina-Ultrabold/NeueMachina-Ultrabold.woff') format('woff'),
+        url('/fonts/NeueMachina-Ultrabold/NeueMachina-Ultrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+/* raleway-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Raleway/raleway-v29-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Raleway/raleway-v29-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Raleway/raleway-v29-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Raleway/raleway-v29-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Raleway/raleway-v29-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Raleway/raleway-v29-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Raleway/raleway-v29-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Raleway/raleway-v29-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Raleway/raleway-v29-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Сайт*/
+*body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+.Body_Site{
+width: auto;
+height: auto;
+background-color:#dadada;
+display: flex;
+}
+/*============ Скролл ===========*/
+.Menu_Brain_Pos{
+position: absolute;
+margin-left: 1500px;
+margin-top: 100px;
+}
+.Menu_Brain{
+    margin-top: -95px;
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Menu_Brain:hover{
+    margin-top: -70px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Ceramic_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Ceramic_page:hover{
+    margin-top: 30px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Neoclassic_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 112px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Neoclassic_page:hover{
+    margin-top: 132px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Classic_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 212px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Classic_page:hover{
+    margin-top: 232px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Exclusive_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 313px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Exclusive_page:hover{
+    margin-top: 333px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Moder_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 413px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Moder_page:hover{
+    margin-top: 432px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.Zaglushki_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 513px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.Zaglushki_page:hover{
+    margin-top: 532px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.All_Product_page{
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: 612px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.All_Product_page:hover{
+    margin-top: 632px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+.About_Us_page{
+    margin-left: -1475px;
+    display: flex;
+    position: fixed;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+    border-radius: 40px;
+    width: 200px;
+    height: 75px;
+    margin-top: -95px;
+    text-decoration: none;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+}
+.About_Us_page:hover{
+    margin-top: -75px;
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 0.6s;
+}
+/* ================= 1 Блок =========================*/
+.Blok_One {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 15%;
+    display: block;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+/*===================== Содержание =================*/
+.Sostav_nav{
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.Sostav_nav:hover{
+    background-color: rgb(13, 30, 124);
+    transform: translateY(8%);
+    transition: 0.5s;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: #535252 1px 9px 20px;
+    position: absolute;
+}
+.sostav_link{
+    text-decoration: none;
+    list-style: none;
+}
+.Sostav_item {
+    margin-top: 5px;
+    position: absolute;
+    display: flex;
+    margin-left: -29px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    word-wrap: break-word;
+    color: white;      
+}
+/*============= 21 ver 2.0 =========================*/
+.Twenty_One_font {
+    margin-top: 35px;
+    font-size: 80px;
+    font-family: Raleway;
+    font-weight: 500;
+    word-wrap: break-word;
+    display: flex;
+    position: relative;
+    color: white;
+    margin-left: 850px;
+    text-align: center;
+font-style: normal;
+line-height: normal;
+}
+.verTwoZero_font {
+    margin-top: -102px;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    position: absolute;
+    color: red;
+    margin-left: 908px;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    transform: rotate(-90deg);
+}
+
+/* =============== Лицевая фернитура ============== */
+.Furnitura_nav{
+    margin-top: 0px;
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+}
+.Face_Fur_font{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: white;
+}
+.and_font_One {
+    display: flex;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(255, 0, 0);
+}
+.Other_font {
+    margin-left: 10px;
+    margin-top: -11px;
+    display: flex;
+    color: white;
+    position: absolute;
+}
+.and_font_Two {
+    display: flex;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 288px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(255, 0, 0);
+}
+/*================== Фото1 ==========================*/
+.Photo_One {
+    margin-top: 145px;
+    position: absolute;
+    width: 1000px;
+    height: 472px;
+    display: flex;
+    background-color: #ffffff;
+}
+.Ruchki_One{
+width: 1000px;
+height: 400px;
+}
+.Ruchki_One:hover{
+    transform: translateY(-5px);
+    transition: 1s;
+    width: 1040px;
+    height: 440px;
+}
+.Logo_One {
+    margin-left: 720px;
+    margin-top: 420px;
+    display: flex;
+    position: absolute;
+    width: 225px;
+    height: 40px;
+}
+
+/* ======================2 Блок =================*/
+.Blok_Two {
+    margin-top: 940px;
+    margin-left: 15%;
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(2,2,48);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Two:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(199, 148, 72) 20px 28px 19px;
+    transition: 1s;
+    transform: translateY(-2px);
+}
+.Sod_font {
+    margin-left: -195px;
+    position: absolute;
+    display: flex;
+    margin-top: -380px;
+}
+.Blok-Two_Font_One {
+    margin-left: 235px;
+    margin-top: 390px;
+    display: flex;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: none;
+    color: #ffffff;
+}
+.Blok-Two_Font_Two {
+    width: 530px;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-left: 252px;
+    margin-top: 520px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: none;
+}
+.Mein_Menu {
+    margin-top: 25px;
+    margin-left: 850px;
+    display: flex;
+    position: absolute;
+    background-color: #dadada;
+}
+.Menu_Logo {
+    margin-top: 20px;
+    width: 90px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    border-radius: 25px;
+}
+.Menu_Logo:hover{
+    border: 3px solid rgb(255, 255, 255);
+    transition: 0.7s;
+}
+.Mein_Menu-font {
+    margin-left: 84%;
+    margin-top: 155px;
+    display: flex;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: cadetblue;
+}
+.Ceramica{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ceramica:hover{
+    transition: 1s;
+    width: 110px;
+    height: 60px;
+    background-color: rgb(216, 76, 76);
+    border: 0.5px solid silver;
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.Neoclassic_font{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 180px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Neoclassic_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.Classic_font{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 308px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Classic_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.Exclusive_font{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 438px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Exclusive_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.Modern_font{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 568px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Modern_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.Zaglushki_font{
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 170px;
+    margin-left: 700px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Zaglushki_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.All_Product_font {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.All_Product_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+.About_US_font {
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left: 179px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    color: #ffffff;
+    background-color: rgb(216, 76, 76);
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.About_US_font:hover{
+    transition: 0.8s;
+    width: 110px;
+    height: 60px;
+    border: 0.5px solid silver;
+    background-color: rgb(201, 68, 68);
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px;
+}
+/* ====================== 3 Блок =================*/
+.Blok_Three {
+    margin-top: 1800px;
+    margin-left: 15%;
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+
+.Block_Three_Font_One {
+    position: absolute;
+    display: flex;
+    margin-left: 430px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: initial;
+    font-weight: normal;
+}
+
+/*1*/
+.Kolona_One {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 57px;
+    width: 400px;
+    height: 275px;
+    border: 1px solid black;
+}
+.Kolona_One:hover {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 57px;
+    width: 400px;
+    height: 275px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_One{
+    margin-left: 345px;
+}
+.Latini_One {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    height: 228px;
+    width: 400px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -84px;
+    font-size: 20px;
+    position: absolute;
+}
+.Latini_Two{
+margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_One {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_One:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.Latini_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+
+/*2*/
+.Kolona_Two {
+    margin-left: 535px;
+    margin-top: -262px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid black;
+}
+.Kolona_Two:hover {
+    margin-left: 535px;
+    margin-top: -262px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Two{
+    margin-left: 345px;
+}
+.ESTAMP_One {
+    margin-bottom: 0px;
+    padding-top: 13px;
+    position: absolute;
+    height: 324px;
+    width: 410px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -46px;
+    font-size: 22px;
+}
+.ESTAMP_Two{
+margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Two {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Two:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.ESTAMP_One:hover{
+    color: red;
+    margin-left: 100px;
+    transition: 0.8s;
+}
+/*3*/
+.Kolona_Three {
+    margin-left: 80px;
+    margin-top: -60px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid black;
+}
+.Kolona_Three:hover {
+    margin-left: 80px;
+    margin-top: -60px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Three{
+    margin-left: 345px;
+}
+.GIUSTI_One {
+    padding-top: 40px;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 298px;
+    width: 410px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -66px;
+    font-size: 20px;
+}
+.GIUSTI_Two{
+margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Three {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Three:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.GIUSTI_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+
+/*4*/
+.Kolona_Four {
+    margin-left: 535px;
+    margin-top: -263px;
+    width: 410px;
+    height: 260px;
+    border: 1px solid black;
+}
+.Kolona_Four:hover {
+    margin-left: 535px;
+    margin-top: -263px;
+    width: 410px;
+    height: 260px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Four{
+    margin-left: 345px;
+}
+.HART_One {
+    padding-top: 30px;
+    position: absolute;
+    font-weight: revert;
+    margin-top: -40px;
+    font-size: 20px;
+    width: 410px;
+    height: 230px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.HART_Two{
+margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Four {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Four:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.HART_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+
+/*Страница*/
+.Page_bl_Three {
+    margin-left: 50%;
+    margin-top: 80px;
+    display: flex;
+    position: absolute;
+}
+.and_font_three {
+    color: red;
+    margin-top: 0px;
+    margin-left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+}
+.bl_font_three {
+    font-weight: normal;
+    margin-top: 3px;
+    margin-left: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+}
+.and_font_four{
+    color: red;
+    margin-top: 0px;
+    margin-left: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+}
+/* ====================== 4 Блок =================*/
+.Blok_Four {
+    margin-top: 2700px;
+    margin-left: 15%;
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Block_Four_Font_One{
+    position: absolute;
+    display: flex;
+    margin-left: 430px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: initial;
+    font-weight: normal;
+}
+.Block_Four_Font_Two {
+    position: absolute;
+    display: flex;
+    margin-left: 430px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: initial;
+    font-weight: normal;
+}
+/*1*/
+.Kolona_Five {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 57px;
+    width: 410px;
+    height: 275px;
+    border: 1px solid black;
+}
+.Kolona_Five:hover {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 57px;
+    width: 410px;
+    height: 275px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Five{
+    margin-left: 337px;
+}
+.FURNIPART_One{
+    margin-bottom: 0px;
+    padding-top: 30px;
+    position: absolute;
+    height: 324px;
+    width: 410px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -46px;
+    font-size: 22px;
+}
+.FURNIPART_Two{
+margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Five{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px; 
+}
+.Kolona_font_Five:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.FURNIPART_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+/*2*/
+.Kolona_Six {
+    margin-left: 535px;
+    margin-top: -262px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid black;
+}
+.Kolona_Six:hover {
+    margin-left: 535px;
+    margin-top: -262px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Six{
+    margin-left: 306px;
+}
+.GAMET_One{
+    margin-bottom: 0px;
+    padding-top: 13px;
+    position: absolute;
+    height: 324px;
+    width: 410px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -46px;
+    font-size: 22px;
+}
+.GAMET_Two{
+    margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Six{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Six:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.GAMET_One:hover{
+    color: red;
+    margin-left: 100px;
+    transition: 0.8s;
+}
+/*3*/
+.Kolona_Seven{
+    margin-left: 80px;
+    margin-top: -60px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid black;
+}
+.Kolona_Seven:hover {
+    margin-left: 80px;
+    margin-top: -60px;
+    width: 410px;
+    height: 339px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Seven{
+    margin-left: 345px;
+}
+.HETTICH_One{
+    padding-top: 40px;
+    margin-bottom: 0px;
+    position: absolute;
+    height: 298px;
+    width: 410px;
+    margin-left: 30px;
+    font-weight: revert;
+    margin-top: -66px;
+    font-size: 20px;
+}
+.HETTICH_Two{
+    margin-left: 10px;
+font-weight: revert;
+margin-top: 27px;
+font-size: 15px;
+}
+.Kolona_font_Seven {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Seven:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.HETTICH_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+
+/*4*/
+.Kolona_Eght{
+    margin-left: 535px;
+    margin-top: -263px;
+    width: 410px;
+    height: 260px;
+    border: 1px solid black;
+}
+.Kolona_Eght:hover {
+    margin-left: 535px;
+    margin-top: -263px;
+    width: 410px;
+    height: 260px;
+    border: 1px solid rgb(197, 40, 40);
+}
+.Pic_Blok_Eght{
+    margin-left: 345px;
+}
+.METAKOR_One{
+    padding-top: 30px;
+    position: absolute;
+    font-weight: revert;
+    margin-top: -40px;
+    font-size: 20px;
+    width: 410px;
+    height: 230px;
+    margin-bottom: 0px;
+    margin-left: 30px;  
+}
+.METAKOR_Two{
+    margin-left: 10px;
+    font-weight: revert;
+    margin-top: 27px;
+    font-size: 15px;
+}
+.Kolona_font_Eght {
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+}
+.Kolona_font_Eght:hover {
+    transition: 0.8s;
+    margin-left: 5px;
+    width: 400px;
+    height: 260px;
+}
+.METAKOR_One:hover{
+    color: red;
+    margin-left: 90px;
+    transition: 0.8s;
+}
+/*Страница*/
+.Page_bl_Three {
+    margin-left: 50%;
+    margin-top: 80px;
+    display: flex;
+    position: absolute;
+}
+.and_font_three {
+    color: red;
+    margin-top: 0px;
+    margin-left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+}
+.bl_font_three {
+    font-weight: normal;
+    margin-top: 3px;
+    margin-left: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+}
+.and_font_four{
+    color: red;
+    margin-top: 0px;
+    margin-left: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+}
+/*===================== 5 Блок ==================*/
+.Blok_Five {
+    margin-top: 3620px;
+    margin-left: 15%;
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Five:hover{
+    background-color: rgb(160, 67, 55);
+    transition: 0.8s;
+}
+.Ceramic {
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 230px;
+    padding-left: 220px;
+    position: absolute;
+    font-size: 150px;
+}
+.Ceramic:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(30px);
+}
+.Main_Menu{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+}
+.Main_Menu:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+/*===================== 6 Блок ==================*/
+.Blok_Six {
+    margin-top: 4500px;
+    margin-left: 15%;
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Six:hover{
+    width: 1000px;
+    height: 855px;
+    transition: 0.8s;
+}
+.Blok_font_Fix{
+    margin-left: 340px;
+    margin-top: 10px;
+    gap: 5px;
+    display: flex;
+    position: absolute;   
+}
+.Lic_Forn_Font_One{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+}
+.Lic_Forn_Font_Two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+}
+.Dot_One{
+    color: red;
+    font-size: 13px;
+}
+/*Ruchka_Scoba_m81_91*/
+.Ruchka_Scoba_M81_91 {
+    margin-top: -36px;
+    width: 1000px;
+    height: 340px;
+}
+.Ruchka_Scoba_M81_91:hover{
+    transition: 0.8s;
+    transform: translateY(40px);
+}
+.Ruchka_m8191{
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+    width: 240px;
+    height: 100px;
+}
+.Ruchka_m8191_Shema{
+    width: 240px;
+    height: 140px;
+    margin-left: 585px;
+    margin-top: 75px;
+    position: absolute;
+}
+
+.Ruchka_font_M81_91 {
+    padding-bottom: 90px;
+    padding-top: 214px;
+    padding-left: 90px;
+    gap: 5px;
+    display: flex;
+    position: absolute;
+    width: 910px;
+    height: 30px;
+    margin-top: -25px;
+    margin-left: 0px;
+}
+.Ruchka_font_M81_91:hover{
+    margin-left: 100px;
+    color: red;
+    transition: 0.9s;
+}
+.Ruchka_Scoba{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.M81_91 {
+    font-style: normal;
+    font-size: 15px;
+}
+.Price_One {
+    margin-left: 60px;
+    margin-top: 210px;
+    width: 880px;
+    height: 100px;
+}
+/*Ручка-скоба M10*/
+.Ruchka_Scoba_M10{
+    width: 1000px;
+    height: 340px;
+    position: relative;
+    margin-top: -5px;
+}
+.Ruchka_Scoba_M10:hover{
+    transform: translateY(40px);
+    transition: 0.8s;
+}
+.Ruchka_Scoba_M10_Pic{
+    width: 275px;
+    height: 135px;
+    margin-left: 65px;
+    margin-top: 0px;
+    position: absolute;
+}
+.Ruchka_Scoba_Shema_M10{
+     margin-left: 540px;
+    margin-top: 0px;
+    position: absolute;
+    width: 295px;
+    height: 145px;
+}
+
+.Ruchka_font_M10{
+ padding-bottom: 90px;
+    padding-top: 145px;
+    padding-left: 90px;
+    gap: 5px;
+    display: flex;
+    position: absolute;
+    width: 910px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 0px;
+}
+.Ruchka_font_M10:hover{
+    margin-left: 100px;
+    color: red;
+    transition: 0.8s;
+}
+.Ruchka_Scoba_Two{
+    font-size: 15px;
+    font-style: normal;
+}
+.M10{
+    font-style: normal;
+    font-size: 15px;
+}
+.Ruchka_Scoba_M10_Price {
+    margin-left: 60px;
+    margin-top: 135px;
+    width: 880px;
+    height: 95px;
+}
+/*Ruchkas_Scoba_M11*/
+.Ruchka_Scoba_M11{
+    width: 1000px;
+    height: 340px;
+    position: relative;
+    margin-top: -80px;
+}
+.Ruchka_Scoba_M11:hover{
+    transform: translateY(40px);
+    transition: 0.8s;
+}
+.Ruchka_Scoba_M11_Pic{
+    margin-left: 65px;
+    margin-top: 0px;
+    position: absolute;
+    width: 240px;
+    height: 130px;
+}
+.Ruchka_Scoba_Shema_M11 {
+    width: 250px;
+    margin-left: 579px;
+    margin-top: -4px;
+    position: absolute;
+}
+
+.Ruchka_font_M11{
+ padding-bottom: 90px;
+    padding-top: 145px;
+    padding-left: 90px;
+    gap: 5px;
+    display: flex;
+    position: absolute;
+    width: 910px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.Ruchka_font_M11:hover{
+    margin-left: 100px;
+    color: red;
+    transition: 0.8s;
+}
+.Ruchka_Scoba_Three{
+    font-size: 15px;
+    font-style: normal;
+}
+.M11{
+    font-style: normal;
+    font-size: 15px;
+}
+.Ruchka_Scoba_M11_Price {
+    margin-left: 60px;
+    margin-top: 157px;
+    width: 880px;
+    height: 75px;
+}
+/*Страниц5*/
+.Page_Five {
+    margin-top: -33px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+}
+.Page_Five:hover{
+    transition: 0.8s;
+}
+.Page_Five_One{
+    color: red;
+}
+.Page_Five_Two{
+    color: rgb(0, 0, 0);
+}
+.Page_Five_Three{
+    color: red;
+}
+/*======================= 7 Блок ===================*/
+.Blok_Seven{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 5380px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Seven:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Seven{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Seven:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver2_0{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Seven{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Num2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Four{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*P77*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.bl7_P77_Pic {
+    width: 700px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl7_P77_Price {
+    position: absolute;
+    width: 700px;
+    margin-top: 211px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+
+.P77_font {
+    height: 80px;
+    padding-top: 179px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 14px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.P77_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P88*/
+.Pic_Animation_two {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_two.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl7_P88_Pic {
+    width: 700px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl7_P88_Price {
+    position: absolute;
+    margin-top: 106px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.P88_font {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -56px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.P88_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P88 - 2*/
+.Pic_Animation_three {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_three.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.blok_7_P882_Pic {
+    width: 700px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.blok_7_P882_Price {
+    width: 700px;
+    margin-top: 76px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.P882_font {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -222px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.P882_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Страница*/
+.Page_Six{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Six_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Six_Two{
+    color: #000000;
+}
+.Page_Six_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 8 Блок ===================*/
+.Blok_Eight{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 6265px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Eight:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Eight{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Eight:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Fur{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Eight{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Five{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*M71*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.BL8_M71_Pic {
+    position: absolute;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.BL8_M71_Price {
+    position: absolute;
+    width: 700px;
+    margin-top: 230px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.BL8_font {
+    height: 80px;
+    padding-top: 202px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 9px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.BL8_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M71_2*/
+.Pic_Animation_two {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_two.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Ruchka_M71_Pic_Two {
+    margin-top: -13px;
+    margin-left: 15%;
+    border-radius: 25px;
+}
+.Ruchka_M71_Price_Two{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.M71_2_font {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -214px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.M71_2_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M81*/
+.Pic_Animation_three {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_three.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Ruchka_M81_Pic{
+margin-top: 0px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Ruchka_M81_Price{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.M81_font {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -222px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.M81_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Страница*/
+.Page_Eight{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Seven_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Seven_Two{
+    color: #000000;
+}
+.Page_Seven_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 9 Блок ===================*/
+.Blok_Nine{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 7130px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Nine:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Nine{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Nine:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver2_0_Nine{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Nine{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Nine_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Six{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*Vic*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.bl9_Victoria {
+    width: 700px;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl9_Victoria_Price {
+    width: 700px;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl9_font {
+    height: 127px;
+    padding-top: 237px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -21px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bl9_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_2*/
+.Pic_Animation_two {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_two.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Ruchka_Victoria_2{
+margin-top: 50px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Ruchka_Victoria_2_Price{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Victoria_2 {
+    height: 129px;
+    padding-top: 207px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -337px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Victoria_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Nine{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Eight_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Eight_Two{
+    color: #000000;
+}
+.Page_Eight_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 10 Блок ===================*/
+.Blok_Ten{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 8000px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Ten:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Ten{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Ten:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Fur_Two{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Ten{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Two{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Nine{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*Vic*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.bl10_Victoria_3 {
+    position: absolute;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl10_Victoria_Price_3 {
+    position: absolute;
+    width: 700px;
+    margin-top: 250px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.bl10_font {
+    height: 103px;
+    padding-top: 242px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -10px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bl10_font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_2*/
+.Pic_Animation_two {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_two.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Ruchka_Victoria_4{
+margin-top: 50px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Ruchka_Victoria_4_Price{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Victoria_4 {
+    height: 129px;
+    padding-top: 220px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -352px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Victoria_4:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Ten{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Ten_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Ten_Two{
+    color: #000000;
+}
+.Page_Ten_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 11 Блок ===================*/
+.Blok_Eleven{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 8880px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Eleven:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Eleven{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Eleven:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_11_2_0{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Eleven{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.El_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Eleven{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*M17*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.El_M17_Pic {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 142px;
+    width: 700px;
+    border-radius: 25px;
+}
+.El_M17_PR {
+    width: 700px;
+    position: absolute;
+    margin-top: 213px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.R_M17 {
+    height: 79px;
+    padding-top: 213px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -19px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.R_M17:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*12506*/
+.Pic_Animation_two {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_two.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.El_R_12506_Pic{
+margin-top: -16px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.El_R_12506_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.R_12506 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -229px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.R_12506:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Victoria*/
+.Pic_Animation_three {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_three.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.El_Vic_Pic{
+margin-top: 0px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.El_Vic_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.El_Vic {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -222px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.El_Vic:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Eleven{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Eleven_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Eleven_Two{
+    color: #000000;
+}
+.Page_Eleven_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 12 Блок ===================*/
+.Blok_Twelve{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 9750px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Twelve:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Twel{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Twel:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Twel{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Twel{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Twel{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Twel{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*P11B*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.Pic_Animation_four.Pic_Animation-show_Two{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateX(0%);
+}
+.Twel_P11B {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Twel_P11B_PR {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Twel_font_P11B {
+    height: 103px;
+    padding-top: 242px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -586px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Twel_font_P11B:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Bello*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(200px);
+}
+.Pic_Animation_five.Pic_Animation-show_Two{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateX(0%);
+}
+.Twel_Bello{
+margin-top: 15px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Twel_Bello_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Twel_font_Bello {
+    height: 129px;
+    padding-top: 220px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -352px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Twel_font_Bello:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Twel{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Twel_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Twel_Two{
+    color: #000000;
+}
+.Page_Twel_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 13 Блок ===================*/
+.Blok_Thirteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 10630px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Thirteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Thrit{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Thrit:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver2_0_Thit{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Thrit{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Thrit{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Thrit{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+.Bull{
+    position: absolute;
+margin-top: 52px;
+margin-left: 50px;
+width: 800px;
+height: 700px;
+border-radius: 25px;
+}
+.Bull:hover{
+    margin-left: 80px;
+    width: 850px;
+    height: 720px;
+    transition: 0.8s;
+}
+
+.Pic_Animation {
+    margin-top: 0px;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(200px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+/*Страница*/
+.Page_Thrit{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Thrit_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Thrit_Two{
+    color: #000000;
+}
+.Page_Thrit_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 14 Блок ===================*/
+.Blok_Forteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 11500px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Forteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Forteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Forteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Frteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Frteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Frteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Fourteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*Vic*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Frteen_Vic_Pic{
+position: absolute;
+margin-top: -500px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.Frteen_Vic_PR{
+    position: absolute;
+    margin-top: -344px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Frteen_Font_1 {
+    height: 79px;
+    padding-top: 184px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -546px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Frteen_Font_1:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P07*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Frteen_P07_Pic{
+margin-top: -16px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Frteen_P07_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Frteen_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -226px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Frteen_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P08*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Frteen_P08_Pic{
+margin-top: 0px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Frteen_P07_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Frteen_Font_3 {
+    height: 80px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -217px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Frteen_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Frteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Frteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Frteen_Two{
+    color: #000000;
+}
+.Page_Frteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/*======================= 15 Блок ===================*/
+.Blok_Fifteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 12370px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Fifteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Fifteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Fifteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Ffteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Ffteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Ffteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Fifteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*Vic*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.Pic_Animation_four.Pic_Animation-show_Two{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateX(0%);
+}
+.Ffteen_Vic_Pic {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+.Ffteen_Vic_PR {
+    position: absolute;
+    margin-top: -286px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+.Ffteen_Font_1 {
+    height: 111px;
+    padding-top: 247px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -550px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ffteen_Font_1:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Scandi*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(200px);
+}
+.Pic_Animation_five.Pic_Animation-show_Two{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateX(0%);
+}
+.Ffteen_Scandi_Pic {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+.Ffteen_Scandi_PR {
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+.Ffteen_Font_2 {
+    height: 90px;
+    padding-top: 220px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 57px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ffteen_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Ffteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Ffteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Ffteen_Two{
+    color: #000000;
+}
+.Page_Ffteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/* ============== 16 Блок ==============*/
+.Blok_Sixteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 13270px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Sixteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Sixteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Sixteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Sixteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Sixteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_Sixteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Sixteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*Vic*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Sixteen_Pic{
+position: absolute;
+margin-top: -500px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.Sixteen_PR {
+    position: absolute;
+    margin-top: -334px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Sixteen_Font {
+    height: 79px;
+    padding-top: 194px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -546px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sixteen_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M01*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Sixteen_M01{
+margin-top: -16px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Sixteen_M01_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Sixteen_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -236px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sixteen_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*М10/М54*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Sixteen_M54{
+margin-top: 0px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Six_teen_M54_PR{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Sixteen_Fon_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -240px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sixteen_Fon_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_sxteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_sxteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_sxteen_Two{
+    color: #000000;
+}
+.Page_sxteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/* ================ 17 Блок ============== */
+.Blok_SVteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 13310px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_SVteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_SVteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_SVteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_SVteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_SVteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.SEVteen_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_SVteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*P77*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.SVteen_Pic_P77{
+position: absolute;
+margin-top: -500px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.SVteen_PR_P77 {
+    position: absolute;
+    margin-top: -334px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.SVteen_Font {
+    height: 79px;
+    padding-top: 194px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -546px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SVteen_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P77_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.SVteen_Pic_P77_2{
+margin-top: -16px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.SVteen_PR_P77_2{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.SVteen_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -226px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SVteen_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*P77_3*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.SVteen_Pic_P77_3{
+margin-top: 0px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.SVteen_PR_P77_3{
+    margin-top: 10px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.SVteen_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -225px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SVteen_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_svteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_svteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_svteen_Two{
+    color: #000000;
+}
+.Page_svteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/* ================ 18 Блок ============== */
+.Blok_Eightteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 14190px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Eightteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Eightteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Eightteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Eightteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Eightteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Eightteen_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Eightteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*M78*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Eightteen_Pic_M78{
+position: absolute;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.Eightteen_PR_M78 {
+    position: absolute;
+    margin-top: -334px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Eightteen_Font {
+    height: 79px;
+    padding-top: 194px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -544px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Eightteen_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M78_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Eightteen_Pic_M78_2{
+margin-top: -26px;
+margin-left: 15%;
+border-radius: 25px;
+}
+.Eightteen_PR_M78_2{
+    margin-top: 20px;
+    margin-left: 14%;
+    border-radius: 25px;
+}
+.Eightteen_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -223px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Eightteen_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M78_3*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Eightteen_Pic_M78_3{
+position: absolute;
+margin-top: -24px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.Eightteen_PR_M78_3{
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Eightteen_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Eightteen_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_eightteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_eightteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_eightteen_Two{
+    color: #000000;
+}
+.Page_eightteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/* ================ 19 Блок ============== */
+.Blok_Nineteen{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 15080px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Nineteen:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Nineteen{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Nineteen:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_Nineteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Nineteen{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Nineteen_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Ninetteen{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*Pic_19*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_19{
+position: absolute;
+width: 800px;
+height: 700px;
+margin-top: -490px;
+margin-left: 100px;
+border-radius: 25px;
+}
+.Pic_19:hover{
+    position: absolute;
+    transition: 0.8s;
+    width: 850px;
+    height: 720px;
+    margin-top: -490px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+
+/*Страница*/
+.Page_Nineteen{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Nineteen_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Nineteen_Two{
+    color: #000000;
+}
+.Page_Nineteen_Three{
+    font-weight: bold;
+    color: red;
+}
+/*================ 20 Блок ================*/
+.Blok_Twenty{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 15965px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_Twenty:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_Twenty{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_Twenty:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_Twenty{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_Twenty{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Twenty_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_Twenty{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*Sabine*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Twenty_Pic_Sabine{
+position: absolute;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.Twenty_PR_Sabine {
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Twenty_Font {
+    height: 79px;
+    padding-top: 184px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -545px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Twenty_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Sabine_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Twenty_Pic_Sabine_2 {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Twenty_PR_Sabine_2 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Twenty_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Twenty_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Sabine_3*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Twenty_Pic_Sabine_3{
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.Twenty_PR_Sabine_3{
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Twenty_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Twenty_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_Twenty{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_Twenty_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_Twenty_Two{
+    color: #000000;
+}
+.Page_Twenty_Three{
+    font-weight: bold;
+    color: red;
+}
+/*================ 21 Блок ================*/
+.Blok_21{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 16865px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_21:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_21{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_21:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_21{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_21{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T21_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_21{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*P49*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_21_P49 {
+    position: absolute;
+    margin-top: -514px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.PR_21_P49 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Font_21 {
+    height: 90px;
+    padding-top: 260px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -511px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_21:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*M88*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_21_M88 {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_21_M88 {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Font_21_2 {
+    height: 86px;
+    padding-top: 252px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 90px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_21_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_21{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_21_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_21_Two{
+    color: #000000;
+}
+.Page_21_Three{
+    font-weight: bold;
+    color: red;
+}
+/*================ 22 Блок ================*/
+.Blok_22{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 17750px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_22:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_22{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_22:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_22{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_22{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_22{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_22{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*WPO188*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_WPO188 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.Sh_WPO188 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 580px;
+    border-radius: 25px;
+}
+.PR_WPO188 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+
+.Font_22 {
+    height: 90px;
+    padding-top: 260px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -505px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_22:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*WMN188_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_WPO188_2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Sh_WPO188_2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 580px;
+    border-radius: 25px;
+}
+.PR_WPO188_2 {
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.Font_22_2 {
+    height: 86px;
+    padding-top: 303px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 392px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_22_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_22{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_22_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_22_Two{
+    color: #000000;
+}
+.Page_22_Three{
+    font-weight: bold;
+    color: red;
+}
+/*=========== 23-Блок ============*/
+.Blok_23{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 18650px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_23:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Neoclassic{
+color: rgb(0, 0, 0);
+padding-bottom: 220px;
+padding-top: 230px;
+padding-right: 163px;
+padding-left: 179px;
+position: absolute;
+font-size: 150px;
+}
+.Neoclassic:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_2{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_2:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+/*=============== 24 Блок ===================*/
+.Blok_24{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 19550px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_24:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_24{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_24:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_24{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_24{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Coll_Cer_24{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_24{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*vic_24_1*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_24 {
+    margin-top: -510px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_24 {
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    margin-top: -310px;
+    border-radius: 24px;
+}
+
+.Font_24 {
+    height: 90px;
+    padding-top: 260px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -584px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_24:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_24_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_24_2 {
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+    margin-top: 329px;
+}
+.PR_24_2 {
+    border-radius: 24px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    margin-top: 550px;
+}
+.Font_24_2 {
+    height: 204px;
+    padding-top: 199px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 333px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_24_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_24{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_24_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_24_Two{
+    color: #000000;
+}
+.Page_24_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 25 Блок ===================*/
+.Blok_25{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 20450px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_25:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_25{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_25:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_25{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_25{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_25{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_25{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_25 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_25 {
+    margin-top: 275px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_25 {
+    padding-top: 256px;
+    height: 132px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_25:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_24_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_25_2 {
+    margin-top: 85px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_25_2 {
+    margin-top: 335px;
+    border-radius: 24px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+}
+.Font_25_2 {
+    padding-top: 290px;
+    height: 127px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 28px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_25_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_25{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_25_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_25_Two{
+    color: #000000;
+}
+.Page_25_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 26 Блок ===================*/
+.Blok_26{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 21350px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_26:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_26{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_26:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_26{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_26{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_26{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_26{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_26 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_26 {
+    margin-top: 275px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_26 {
+    padding-top: 256px;
+    height: 132px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_26:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_24_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_26_2 {
+    margin-top: 85px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_26_2 {
+    margin-top: 335px;
+    border-radius: 24px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+}
+.Font_26_2 {
+    padding-top: 290px;
+    height: 127px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 28px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_26_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_26{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_26_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_26_Two{
+    color: #000000;
+}
+.Page_26_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 27 Блок ===================*/
+.Blok_27{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 22250px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_27:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.logo_27{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl27_pic{
+    border-radius: 40px;
+    margin-top: -275px;
+    margin-left: 142px;
+    display: flex;
+    height: 500px;
+    position: absolute;
+    width: 700px;
+}
+.bl27_pic:hover{
+    transition: 0.8s;
+    margin-left: 100px;
+    width: 800px;
+    height: 500px;
+}
+.bl27_2_pic {
+    border-radius: 24px;
+    margin-top: 235px;
+    position: absolute;
+    display: flex;
+    margin-left: 142px;
+    height: 200px;
+    width: 700px;
+}
+
+.Blok_font_27{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_27:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_27{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_27{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_27{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+/*Страница*/
+.Page_27{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_27_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_27_Two{
+    color: #000000;
+}
+.Page_27_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 28 Блок ===================*/
+.Blok_28{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 23150px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_28:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl28_pic{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl28_pic:hover{
+    margin-top: -300px;
+    transition: 0.8s;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border-radius: 90px;
+    margin-left: 100px;
+}
+/*=============== 29 Блок ===================*/
+.Blok_29{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 24050px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_29:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl29_pic{
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: -295px;
+    border-radius: 20px;
+}
+.bl29_pic:hover{
+    margin-left: 150px;
+    margin-top: -295px;
+    transition: 0.8s;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    border-radius: 90px;
+}
+.bl29_pic_2 {
+    position: absolute;
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 545px;
+    margin-top: -598px;
+    border-radius: 20px;
+}
+.bl29_pic_2:hover{
+    transition: 0.8s;
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    
+}
+.Font_29 {
+    padding-top: 620px;
+    height: 147px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -615px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_29:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+.bl29_pic_3 {
+    border-radius: 24px;
+    position: absolute;
+    display: flex;
+    width: 790px;
+    height: 135px;
+    margin-top: 25px;
+    margin-left: 142px;
+}
+/* =================== 30 Блок ====================*/
+.Blok_30{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 25000px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_30:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Сlassic {
+    color: rgb(0, 0, 0);
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 273px;
+    padding-left: 276px;
+    position: absolute;
+    font-size: 150px;
+}
+.Сlassic:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_3{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_3:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+/*================ 31 Блок ================*/
+.Blok_31{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 25900px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_31:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_31{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_31:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_31{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.D_31{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T31_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_31{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*EXP5019*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_31{
+position: absolute;
+width: 700px;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.PR_Sabine_31 {
+    width: 700px;
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.T31_Font {
+    font-style: normal;
+    height: 79px;
+    padding-top: 170px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -545px;
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T31_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*EXP5201*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_31_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_Sabine_31_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T31_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T31_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*EXP5202*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_31_3{
+    width: 700px;
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.PR_Sabine_31_3{
+    width: 700px;
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T31_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T31_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_31{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_31_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_31_Two{
+    color: #000000;
+}
+.Page_31_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*================ 32 Блок ================*/
+.Blok_32{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 26800px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_32:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_32{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_32:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_32{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.D_32{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T32_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_32{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*CR034*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_32{
+position: absolute;
+width: 700px;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.PR_Sabine_32 {
+    width: 700px;
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.T32_Font {
+    font-style: normal;
+    height: 79px;
+    padding-top: 170px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -530px;
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T32_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Rustic*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_32_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_Sabine_32_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T32_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T32_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*C199*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_32_3{
+    width: 700px;
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.PR_Sabine_32_3{
+    width: 700px;
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T32_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T32_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_32{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_32_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_32_Two{
+    color: #000000;
+}
+.Page_32_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*================ 33 Блок ================*/
+.Blok_33{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 27700px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_33:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_33{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_33:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_33{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.D_33{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T33_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_33{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*CR034*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_33{
+position: absolute;
+width: 700px;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.PR_Sabine_33 {
+    width: 700px;
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.T33_Font {
+    font-style: normal;
+    height: 79px;
+    padding-top: 170px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -530px;
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T33_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Rustic*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_33_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_Sabine_33_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T33_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T33_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*C199*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_33_3{
+    width: 700px;
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.PR_Sabine_33_3{
+    width: 700px;
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T33_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T33_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_33{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_33_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_33_Two{
+    color: #000000;
+}
+.Page_33_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/* =================== 34 Блок ====================*/
+.Blok_34{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 28600px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_34:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Exclusive {
+    color: rgb(0, 0, 0);
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 212px;
+    padding-left: 180px;
+    position: absolute;
+    font-size: 150px;
+}
+.Exclusive:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_4{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_4:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+/*================ 35 Блок ================*/
+.Blok_35{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 29500px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_35:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_35{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_35:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_35{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.D_35{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T35_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_35{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*WPO633*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_35{
+position: absolute;
+width: 700px;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.PR_Sabine_35 {
+    width: 700px;
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.T35_Font {
+    font-style: normal;
+    height: 79px;
+    padding-top: 170px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -530px;
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T35_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Sorriso*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_35_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_Sabine_35_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T35_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T35_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*GP14*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_35_3{
+    width: 700px;
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.PR_Sabine_35_3{
+    width: 700px;
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T35_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T35_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_35{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_35_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_35_Two{
+    color: #000000;
+}
+.Page_35_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*================ 36 Блок ================*/
+.Blok_36{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 30400px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_36:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_36{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_36:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Lic_36{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.D_36{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.T36_2021{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_36{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*WPO633*/
+.Pic_Animation_four{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_36{
+position: absolute;
+width: 700px;
+margin-top: -514px;
+margin-left: 142px;
+border-radius: 25px;
+}
+.PR_Sabine_36 {
+    width: 700px;
+    position: absolute;
+    margin-top: -345px;
+    margin-left: 142px;
+    border-radius: 25px;
+}
+.T36_Font {
+    font-style: normal;
+    height: 79px;
+    padding-top: 170px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: -530px;
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T36_Font:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Sorriso*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_36_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.PR_Sabine_36_2 {
+    width: 700px;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T36_Font_2 {
+    height: 78px;
+    padding-top: 152px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -44px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T36_Font_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*GP14*/
+.Pic_Animation_four {
+    margin-top: 550px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(80px);
+}
+.Pic_Animation_four.Pic_Animation-show{
+    opacity: 1;
+    transition: all 4s;
+    transform: translateY(0%);
+}
+.Pic_Sabine_36_3{
+    width: 700px;
+position: absolute;
+margin-top: -53px;
+margin-left: 140px;
+border-radius: 25px;
+}
+.PR_Sabine_36_3{
+    width: 700px;
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 140px;
+    border-radius: 25px;
+}
+.T36_Font_3 {
+    height: 92px;
+    padding-top: 145px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -8px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T36_Font_3:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_36{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 765px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_36_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_36_Two{
+    color: #000000;
+}
+.Page_36_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 37 Блок ===================*/
+.Blok_37{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 31300px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_37:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl37_pic{
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: -295px;
+    border-radius: 20px;
+}
+.bl37_pic:hover{
+    margin-left: 150px;
+    margin-top: -295px;
+    transition: 0.8s;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    border-radius: 90px;
+}
+.bl37_pic_2 {
+    position: absolute;
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 545px;
+    margin-top: -598px;
+    border-radius: 20px;
+}
+.bl37_pic_2:hover{
+    transition: 0.8s;
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    
+}
+.Font_37 {
+    padding-top: 620px;
+    height: 147px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -615px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_37:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+.bl37_pic_3 {
+    border-radius: 24px;
+    position: absolute;
+    display: flex;
+    width: 780px;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 142px;
+}
+
+/*=============== 38 Блок ===================*/
+.Blok_38{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 32200px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_38:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl38_pic{
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: -295px;
+    border-radius: 20px;
+}
+.bl38_pic:hover{
+    margin-left: 150px;
+    margin-top: -295px;
+    transition: 0.8s;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    border-radius: 90px;
+}
+.bl38_pic_2 {
+    position: absolute;
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 545px;
+    margin-top: -598px;
+    border-radius: 20px;
+}
+.bl38_pic_2:hover{
+    transition: 0.8s;
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    
+}
+.Font_38 {
+    padding-top: 620px;
+    height: 147px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -615px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_38:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+.bl38_pic_3 {
+    border-radius: 24px;
+    position: absolute;
+    display: flex;
+    width: 780px;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 142px;
+}
+
+/* =================== 39 Блок ====================*/
+.Blok_39{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 33100px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_39:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Modern {
+    color: rgb(0, 0, 0);
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 253px;
+    padding-left: 230px;
+    position: absolute;
+    font-size: 150px;
+}
+.Modern:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_5{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_5:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+/*=============== 40 Блок ===================*/
+.Blok_40{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 34000px;;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_40:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl40_pic{
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: -295px;
+    border-radius: 20px;
+}
+.bl40_pic:hover{
+    margin-left: 150px;
+    margin-top: -295px;
+    transition: 0.8s;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    border-radius: 90px;
+}
+.bl40_pic_2 {
+    position: absolute;
+    display: flex;
+    width: 380px;
+    height: 600px;
+    margin-left: 545px;
+    margin-top: -598px;
+    border-radius: 20px;
+}
+.bl40_pic_2:hover{
+    transition: 0.8s;
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 610px;
+    
+}
+.Font_40 {
+    padding-top: 620px;
+    height: 147px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: -615px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_40:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+.bl40_pic_3 {
+    border-radius: 24px;
+    position: absolute;
+    display: flex;
+    width: 780px;
+    height: 122px;
+    margin-top: 30px;
+    margin-left: 142px;
+}
+
+/*=============== 41 Блок ===================*/
+.Blok_41{
+    width: 1000px;
+    height: 840px;
+    display: flex;
+    position: absolute;
+    margin-top: 34900px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_41:hover{
+    height: 850px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    .Page_41:hover{
+        margin-top: 683px;
+        transition: 0.8s;
+    }
+}
+.Blok_font_41{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_41:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_41{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_41{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_41{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_41{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_41 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_41 {
+    margin-top: 275px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_41 {
+    padding-top: 256px;
+    height: 132px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_41:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_24_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_41_2 {
+    margin-top: 85px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_41_2 {
+    margin-top: 335px;
+    border-radius: 24px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+}
+.Font_41_2 {
+    padding-top: 290px;
+    height: 127px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 28px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_41_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_41 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    gap: 1px;
+    display: flex;
+    font-size: 8px;
+    margin-top: 643px;
+    padding-top: 115px;
+    padding-left: 940px;
+}
+
+.Page_41_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_41_Two{
+    color: #000000;
+}
+.Page_41_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 42 Блок ===================*/
+.Blok_42{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 35800px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_42:hover{
+    height: 850px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    .Page_42:hover{
+        margin-top: 683px;
+        transition: 0.8s;
+    }
+}
+.Blok_font_42{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_42:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_42{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_42{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_42{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_42{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_42 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_42 {
+    margin-top: 560px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_42 {
+    padding-top: 542px;
+    height: 179px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_42:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Страница*/
+.Page_42 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    gap: 1px;
+    display: flex;
+    font-size: 8px;
+    margin-top: 643px;
+    padding-top: 115px;
+    padding-left: 940px;
+}
+
+.Page_42_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_42_Two{
+    color: #000000;
+}
+.Page_42_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/*=============== 43 Блок ===================*/
+.Blok_43{
+    width: 1000px;
+    height: 840px;
+    display: flex;
+    position: absolute;
+    margin-top: 36700px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_43:hover{
+    height: 850px;
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_43{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_43:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_43{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_43{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_43{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_43{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_43 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_43 {
+    margin-top: 275px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_43 {
+    padding-top: 256px;
+    height: 132px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_43:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+/*Vic_24_2*/
+.Pic_Animation_five {
+    margin-top: 310px;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.Pic_43_2 {
+    margin-top: 85px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_43_2 {
+    margin-top: 335px;
+    border-radius: 24px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+}
+.Font_43_2 {
+    padding-top: 290px;
+    height: 127px;
+    padding-left: 140px;
+    width: 860px;
+    margin-left: 0px;
+    margin-top: 28px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_43_2:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_43{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_43_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_43_Two{
+    color: #000000;
+}
+.Page_43_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/* =================== 44 Блок ====================*/
+.Blok_44{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 37650px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_44:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Zglushki {
+    color: rgb(0, 0, 0);
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 183px;
+    padding-left: 174px;
+    position: absolute;
+    font-size: 150px;
+}
+.Zglushki:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_6{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_6:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+/*=============== 45 Блок ===================*/
+.Blok_45{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 38550px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_45:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.Blok_font_45{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 800px;
+    color: #ffffff;
+}
+.Blok_font_45:hover{
+    color: black;
+    transition: 3s;
+}
+
+.Ver_45{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.Dot_45{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.Y_45{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.logo_45{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 0px;
+}
+/*vic_25_1*/
+.Pic_Animation{
+    opacity: 0;
+    transform: translateY(60px);
+}
+.Pic_Animation.Pic_Animation-show{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+.Pic_45 {
+    margin-top: 40px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.Pic_45_2 {
+    margin-top: 616px;
+    position: absolute;
+    width: 700px;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+.PR_45 {
+    margin-top: 430px;
+    width: 700px;
+    position: absolute;
+    margin-left: 142px;
+    border-radius: 24px;
+}
+
+.Font_45 {
+    padding-top: 595px;
+    height: 132px;
+    padding-left: 140px;
+    width: 853px;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Font_45:hover{
+    color: red;
+    margin-left: 142px;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*Страница*/
+.Page_45{
+    gap: 1px;
+    display: flex;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 48%;
+    font-size: 8px;
+}
+.Page_45_One{
+    color: red;
+    font-weight: bold;
+    font-weight: bold;
+}
+.Page_45_Two{
+    color: #000000;
+}
+.Page_45_Three{
+    font-weight: bold;
+    color: red;
+}
+
+/* =================== 46 Блок ====================*/
+.Blok_46{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 39450px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_46:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.All_Product {
+    margin-top: 63px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 81px;
+    padding-top: 52px;
+    padding-right: 253px;
+    padding-left: 230px;
+    position: absolute;
+    font-size: 70px;
+}
+.All_Product:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.All {
+    margin-top: 0px;
+    margin-left: 147px;
+    font-style: normal;
+}
+.Pd{
+    font-style: normal;
+}
+.Main_Menu_6{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_5:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+
+/*=============== 47 Блок ===================*/
+.Blok_47{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 40350px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_47:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl47_pic{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl47_pic:hover{
+    margin-top: -300px;
+    transition: 0.8s;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border-radius: 90px;
+    margin-left: 100px;
+}
+/*=============== 48 Блок ===================*/
+.Blok_48{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 41250px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_48:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl48_pic{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl48_pic:hover{
+    margin-top: -300px;
+    transition: 0.8s;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border-radius: 90px;
+    margin-left: 100px;
+}
+
+/*=============== 49 Блок ===================*/
+.Blok_49{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 42150px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_49:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl49_pic{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl49_pic:hover{
+    margin-top: -300px;
+    transition: 0.8s;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border-radius: 90px;
+    margin-left: 100px;
+}
+
+/* =================== About Us ====================*/
+.Blok_AU{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 43050px;
+    margin-left: 15%;
+    background-color: rgb(13, 30, 124);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_AU:hover{
+    background-color: rgb(160, 67, 55);
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+}
+.AU {
+    color: rgb(0, 0, 0);
+    padding-bottom: 220px;
+    padding-top: 230px;
+    padding-right: 183px;
+    padding-left: 174px;
+    position: absolute;
+    font-size: 150px;
+}
+.AU:hover{
+    color: #ffffff;
+    transition: 0.8s;
+    transform: translateY(50px);
+}
+.Main_Menu_7{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(160, 67, 55);
+    color: #000000;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    font-weight: normal;
+}
+.Main_Menu_7:hover{
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(192, 79, 64);
+    box-shadow: rgb(196, 196, 196) 0px 28px 19px;
+    transition: 0.8s;
+}
+
+/*=============== 50 Блок ===================*/
+.Blok_50{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 43950px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_50:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl50_pic{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl50_pic:hover {
+    margin-top: -309px;
+    transition: 0.8s;
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    margin-left: 580px;
+    border-radius: 90px;
+    margin-left: 0px;
+}
+/*=============== 51 Блок ===================*/
+.Blok_51{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 44850px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_51:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl51_pic{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl51_pic:hover {
+    margin-top: -309px;
+    transition: 0.8s;
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    margin-left: 580px;
+    border-radius: 90px;
+    margin-left: 0px;
+}
+/*=============== 52 Блок ===================*/
+.Blok_52{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    position: absolute;
+    margin-top: 45750px;
+    margin-left: 15%;
+    background-color: rgb(255, 239, 221);
+    box-shadow: rgb(80, 71, 108) 20px 28px 19px;
+}
+.Blok_52:hover{
+    background-color: #ffffff;
+    box-shadow: rgb(194, 143, 128) 20px 28px 19px;
+    transition: 0.8s;
+    height: 832px;
+}
+.Pic_Animation_five {
+    opacity: 0;
+    transform: translateY(70px);
+}
+.Pic_Animation_five.Pic_Animation-show{
+    opacity: 1;
+    transition: all 3s;
+    transform: translateY(0%);
+}
+.bl52_pic{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: -235px;
+    border-radius: 20px;
+}
+.bl52_pic:hover {
+    margin-top: -309px;
+    transition: 0.8s;
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    margin-left: 580px;
+    margin-left: 0px;
+}
